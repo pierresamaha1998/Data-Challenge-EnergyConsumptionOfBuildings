@@ -39,4 +39,4 @@ The notebook below, provided by google collab, includes model creation, and mode
 | Description       | Google Colab                                                              |
 |-------------------|---------------------------------------------------------------------------|
 | Notebook  | https://colab.research.google.com/drive/1X1UheAphWQehD9Njgjv2EAZPUGpVXnB4#scrollTo=49EM5mHTtqGH |
-| PowerPoint  | https://colab.research.google.com/drive/1X1UheAphWQehD9Njgjv2EAZPUGpVXnB4#scrollTo=49EM5mHTtqGH |
+| PowerPoint  | https://drive.google.com/drive/folders/1EPFUN6N3qCn3Hs94vTZ5Mc32z1Bzc0pB |
