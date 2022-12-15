@@ -22,7 +22,9 @@ To carry out the task we will have at our disposal 3 sets of data providing vari
 2. Energy Consumption (about buildings enegy consumption from 01/01/2016 to 12/31/ 2017, it has 4 variables):
 - building_id, meter, timestamp, meter_reading
 
-3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables): site_id, air_temperature, cloud_coverage, dew_temperature, precip_depth_1_hr, sea_level_pressure, wind_direction, wind_speed, timestamp,
+3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables): site_id, air_temperature, cloud_coverage, dew_temperature, precip_depth_1_hr, sea_level_pressure, wind_direction, wind_speed, timestamp.
+
+Meter - is the type of meter that measures the data - energy consumption in kWh. The meter (energy source) ID Code. Read as : 0: electricity, 1: chilledwate, 2: steam, 3: hotwater. Timestamp is When the measurement was taken (each hour). Meter_readingis the target variable: Energy consumption in kWh (or equivalent).
 
 #### IV. Deliverables
 
