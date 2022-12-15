@@ -29,3 +29,6 @@ To carry out the task we will have at our disposal 3 sets of data providing vari
 The competition lasts for 3 days. As part of this challenge, the client expects deliverables from us:
 The results obtained on the test data set submitted in csv format with 4 columns in the following order: site_id, building_id, timestamp, meter_reading. The test data set will be provided 1 hours before the end of the Data Challenge.
 A presentation of 7 min presenting our solution, its advantages, its feasibility to our client, with the format and content of the "business" presentation and its application in a professional context.
+
+#### Getting started
+The notebook below, provided by google collab, includes model creation, and model training.
