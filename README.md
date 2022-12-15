@@ -17,18 +17,10 @@ With better estimates of these energy-saving investments, large scale investors 
 
 To carry out the task we will have at our disposal 3 sets of data providing various information:
 1.  Building (about building meta-data, it has 6 variables):
-- site_id : Foreign key for the weather file (indicates a site location)
-- building_id : Unique building ID
-- primary_use : Indicator of the primary category of activities for the building based on EnergyStar property type definitions
-- square_feet : Gross floor area of the building
-- year_built : year_built
-- floor_count : Number of floors of the building
+- site_id, building_id, primary_use, square_feet, year_built, floor_count
 
 2. Energy Consumption (about buildings enegy consumption from 01/01/2016 to 12/31/ 2017, it has 4 variables):
-- building_id : Unique building ID
-- meter : The meter (energy source) ID Code. Read as : 0: electricity, 1: chilledwate, 2: steam, 3: hotwater
-- timestamp : When the measurement was taken (each hour)
-- meter_reading: The target variable. Energy consumption in kWh (or equivalent). Not every building has all meter types
+- building_id, meter, timestamp, meter_reading
 
 3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables): site_id, air_temperature, cloud_coverage, dew_temperature, precip_depth_1_hr, sea_level_pressure, wind_direction, wind_speed, timestamp,
 
