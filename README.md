@@ -16,7 +16,7 @@ With better estimates of these energy-saving investments, large scale investors 
 #### III. Data Description
 
 To carry out the task we will have at our disposal 3 sets of data providing various information:
--- Building (about building meta-data, it has 6 variables):
+1.  Building (about building meta-data, it has 6 variables):
 - site_id : Foreign key for the weather file (indicates a site location)
 - building_id : Unique building ID
 - primary_use : Indicator of the primary category of activities for the building based on EnergyStar property type definitions
