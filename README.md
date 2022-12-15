@@ -31,14 +31,14 @@ To carry out the task we will have at our disposal 3 sets of data providing vari
 - meter_reading: The target variable. Energy consumption in kWh (or equivalent). Not every building has all meter types
 
 3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables):
-site_id : Foreign key for the Building file
-air_temperature : Degrees Celsius
-cloud_coverage : Portion of the sky covered in clouds, in oktas
-dew_temperature : Degrees Celsius
-precip_depth_1_hr : Millimeters
-sea_level_pressure : Millibar/hectopascals
-wind_direction : Compass direction (0-360)
-wind_speed : Meters per second
+site_id : Foreign key for the Building file, 
+air_temperature : Degrees Celsius, 
+cloud_coverage : Portion of the sky covered in clouds, 
+dew_temperature : Degrees Celsius, 
+precip_depth_1_hr : Millimeters, 
+sea_level_pressure : Millibar/hectopascals, 
+wind_direction : Compass direction (0-360), 
+wind_speed : Meters per second, 
 timestamp : When the measurement was taken
 
 IV. Deliverables
