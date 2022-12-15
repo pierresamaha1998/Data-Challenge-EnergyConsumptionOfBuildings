@@ -30,38 +30,10 @@ To carry out the task we will have at our disposal 3 sets of data providing vari
 - timestamp : When the measurement was taken (each hour)
 - meter_reading: The target variable. Energy consumption in kWh (or equivalent). Not every building has all meter types
 
-3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables):
-site_id : Foreign key for the Building file, 
-air_temperature : Degrees Celsius, 
-cloud_coverage : Portion of the sky covered in clouds, 
-dew_temperature : Degrees Celsius, 
-precip_depth_1_hr : Millimeters, 
-sea_level_pressure : Millibar/hectopascals, 
-wind_direction : Compass direction (0-360), 
-wind_speed : Meters per second, 
-timestamp : When the measurement was taken
+3. Weather (about the weather condition each hour per site from 01/01/2016 to 12/31/ 2017, it has 8 variables): site_id, air_temperature, cloud_coverage, dew_temperature, precip_depth_1_hr, sea_level_pressure, wind_direction, wind_speed, timestamp,
 
-IV. Deliverables
+#### IV. Deliverables
 
-As part of this challenge, the client expects three deliverables from you:
+As part of this challenge, the client expects deliverables from us:
 The results obtained on the test data set submitted in csv format named name_of_your_group.csv with 4 columns in the following order: site_id, building_id, timestamp, meter_reading. The test data set will be provided 1 hours before the end of the Data Challenge.
-A scientific procedure document presenting the proposed approach and the results obtained regarding the metric presented above.
-A presentation of 7 min presenting your solution, its advantages, its feasibility to your client.
-All deliverables must be sent by email to the following address mohamed.ihaddadene@capgemini.com, before 5pm on Thursday, October 27.
-
-V. Challenge evaluation
-
-Based on your deliverables, you are evaluated on 3 final criteria by a jury:
-Model Performance: The solution delivers a satisfactory score for the metric used.
-Innovation: Your ability to surprise the jury with the format and content of the "business" presentation and its application in a professional context (a clear and synthetic oral presentation, which creates the "Wow effect", is expected). In addition, the originality of the scientific procedure will be valued.
-Scientific approach: Clarity, rigor, justification and relevance of your scientific approach, expressed on the scientific procedure document.
-
-Please note:
-We provide coaching sessions (30 minutes) with our experts to answer your questions. Feel free to reserve a time slot by providing the name of the team and the email address of a member of the group via the Doodle link.
-
-The dataset test will be released at 4pm on Thursday, October 27.
-
-VI. Benchmark
-
-A first naive method to predict the energy consumption is to estimate it using the average of energy consumption on the training set, this will serve as a benchmark for the energy consumption predictions.
-The proposed solution does not constitute a solution to be adopted to solve the challenge. It is presented to show you an example of a submission that meets the requirements.
+A presentation of 7 min presenting your solution, its advantages, its feasibility to our client, with the format and content of the "business" presentation and its application in a professional context.
