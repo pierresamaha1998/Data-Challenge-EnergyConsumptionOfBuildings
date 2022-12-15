@@ -1,37 +1,28 @@
 # Energy-Consumption-of-buildings-Data-Challenge-
 Energy Consumption of buildings Data Challenge - Capgemini x MINES de Paris
 
-I. Challenge Background
+#### I. Challenge Background
 
-Since the signing of the Kyoto Protocol in 1997, the reduction of greenhouse gases and in particular CO 2  emissions has become a major issue for all private and public actors. This is a key point if we hope to meet the objectives of the 2015 Paris Conference on Global Warming (COP21) to limit global warming between 1.5°C and 2°C.
-Recently, geopolitical issues have forced us to rethink our energy consumption to reduce our gas and electricity consumption.
+Recent geopolitical events have made it necessary for us to reassess our energy consumption habits. This has led to a greater focus on reducing our use of gas and electricity in order to reduce our dependence on certain foreign sources of energy. In order to achieve this goal, many people have begun to explore alternative sources of energy, such as solar and wind power, as well as more efficient ways of using traditional sources of energy. Additionally, there has been an increased emphasis on conservation and energy-saving measures, such as using energy-efficient appliances and implementing strategies to reduce energy waste. This is a key point if we hope to meet the objectives of the 2015 Paris Conference on Global Warming (COP21) to limit global warming between 1.5°C and 2°C.
 
 According to a 2021 study, buildings alone account for 44% of the energy consumed in France, ahead of the transport sector (31.3%). It is therefore crucial to understand which levers can be used to reduce the consumption of buildings and renovate them efficiently.
 
-II. Challenge goals
+#### II. Challenge goals
 
-A real estate promotor wishing to predict the energy consumption of its real estate portfolio calls on you. In particular, he wishes to identify the variables that increase energy consumption by using the information in your model.
-The metric used to assess the ability to correctly predict energy consumption is the following:
+We’ll develop accurate predictions of metered building energy usage in the following areas: chilled water, electric, natural gas, hot water, and steam meters. The data comes from over 1,000 buildings over a three-year timeframe.
 
+With better estimates of these energy-saving investments, large scale investors and financial institutions will be more inclined to invest in this area to enable progress in building efficiencies.
 
-MAPE(y,y^)=1n∑n−1i=0|yi−yi^|max(ϵ,|yi|) 
-Where:
+#### III. Data Description
 
-ϵ  is an arbitrary small yet strictly positive number to avoid undefined results when y is zero
-yi  the real energy consumption
-yi^  the predicted energy consumption for the ith observation
-In this Data Challenge, we will use the MAPE of the scikit-learn library - sklearn.metrics.mean_absolute_percentage_error().
-
-III. Data Description
-
-To carry out your task you will have at your disposal 3 sets of data providing various information:
-Building (about building meta-data, it has 6 variables):
-site_id : Foreign key for the weather file (indicates a site location)
-building_id : Unique building ID
-primary_use : Indicator of the primary category of activities for the building based on EnergyStar property type definitions
-square_feet : Gross floor area of the building
-year_built : year_built
-floor_count : Number of floors of the building
+To carry out the task we will have at our disposal 3 sets of data providing various information:
+-- Building (about building meta-data, it has 6 variables):
+- site_id : Foreign key for the weather file (indicates a site location)
+- building_id : Unique building ID
+- primary_use : Indicator of the primary category of activities for the building based on EnergyStar property type definitions
+- square_feet : Gross floor area of the building
+- year_built : year_built
+- floor_count : Number of floors of the building
 
 Energy Consumption (about buildings enegy consumption from 01/01/2016 to 12/31/ 2017, it has 4 variables):
 building_id : Unique building ID
