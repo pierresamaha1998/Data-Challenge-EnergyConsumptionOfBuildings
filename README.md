@@ -34,3 +34,8 @@ A presentation of 7 min presenting our solution, its advantages, its feasibility
 
 #### Getting started
 The notebook below, provided by google collab, includes model creation, and model training.
+
+
+| Description       | Google Colab                                                              |
+|-------------------|---------------------------------------------------------------------------|
+| Notebook  | https://colab.research.google.com/drive/1X1UheAphWQehD9Njgjv2EAZPUGpVXnB4#scrollTo=49EM5mHTtqGH |
